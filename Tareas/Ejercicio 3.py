@@ -66,13 +66,13 @@ if __name__ == "__main__":
     print(verificar_recoleccion_objeto(almacen, movimientos_correctos))
     print("El robot no tuvo complicaciones, correcto :D")
 
-    # Ejemplo donde el robot choca con un obstáculo.
+    # Ejemplo donde el robot choca con un obstáculo
     print("-----------------------")
     movimientos_con_obstaculo =['D', 'D', 'D']
     print(verificar_recoleccion_objeto(almacen, movimientos_con_obstaculo))
     print("El Robot choco contra un obstaculo, perdiste :c")
 
-    # Ejemplo donde no se recogen todos los productos ni se vuelve al inicio.
+    # Ejemplo donde no se recogen todos los productos ni se vuelve al inicio
     print("-----------------------")
     movimientos_incompletos= ['D', 'D']
     print(verificar_recoleccion_objeto(almacen, movimientos_incompletos))
